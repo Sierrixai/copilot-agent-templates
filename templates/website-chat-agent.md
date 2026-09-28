@@ -22,20 +22,36 @@ management", checked September 2026.)
 ## You'll need
 
 - Microsoft 365 with access to Copilot Studio (copilotstudio.microsoft.com).
-- An Azure subscription to link pay-as-you-go billing in the Power Platform admin center.
+- An Azure subscription for pay-as-you-go billing, and admin rights in the Power Platform admin center.
 - Someone who can paste one line of HTML into your website.
 
 ## Build steps
 
+0. Set up an environment for it (once). Don't build in the default environment: it has no Dataverse
+   ("Dataverse isn't set up in this environment"), and pay-as-you-go billing works only with production or
+   sandbox environments. If you don't have one yet, create an Azure subscription and a resource group at
+   portal.azure.com. Then in the Power Platform admin center: Manage → Environments → New. Give it a name
+   (for example "[Business] Web"), pick your region, type **Production**, Add a Dataverse data store **Yes**,
+   Pay-as-you-go with Azure **Yes** (pick the subscription and resource group). Leave Dynamics 365 apps and
+   sample apps off, save, and wait a few minutes. In Copilot Studio, switch to the new environment with the
+   environment picker before you build. (Microsoft Learn, "Set up a pay-as-you-go plan" and "Create an
+   environment", checked September 2026.)
 1. In Copilot Studio, create a new agent. Give it your business name ("Ask [Business]") and logo.
 2. Paste the instructions below and fill in the brackets.
 3. Knowledge: add your public website address as the only source. Turn off general knowledge and web search
-   in the generative AI settings so it sticks to your site.
+   in the generative AI settings so it sticks to your site. Test a question right away: website knowledge
+   relies on Bing's index, so a new or small site may return nothing. If so, save the text of your main pages
+   into one document and upload that as the knowledge instead (update it when your site changes). If you don't
+   want visitors to see the document's name as a source, add this line to the instructions: "Don't show
+   citations, references or source file names in your answers."
 4. Greeting: one sentence saying what it can help with, plus three starter questions your customers ask most.
+   Give each starter prompt both a title and the message it sends; a starter with only a title does nothing
+   when clicked.
 5. Content moderation: High.
 6. Settings → Security → Authentication → **No authentication** (needed for a public website).
-7. Power Platform admin center → Licensing → Copilot Studio: link a pay-as-you-go billing plan to the agent's
-   environment, then under Manage Agents give the agent a monthly credit limit (3,000 credits = $30 is a good start).
+7. Power Platform admin center → Licensing: check that step 0 linked the environment to pay-as-you-go (under
+   Pay-as-you-go plans), then under Copilot Studio → Manage Agents give the agent a monthly credit limit
+   (3,000 credits = $30 is a good start).
 8. Publish, then test it on Channels → Demo website with the test questions below.
 9. Channels → Web app → copy the embed code into your website. If your site has a Content Security Policy,
    allow `https://copilotstudio.microsoft.com` in `frame-src`.
