@@ -1,15 +1,18 @@
-# Copilot agent templates
+# Copilot agent and flow templates
 
-Free, ready-to-paste agent templates for Microsoft 365 Copilot, written for small and growing businesses.
-None needs code. The first three take about 30 minutes once your documents are ready; the Website Chat Agent and News Digest Agent take about half a day and say why in their own files.
+Free, ready-to-paste agent and Power Automate flow templates for Microsoft 365 Copilot, written for small and growing businesses.
+None needs code. The first three take about 30 minutes once your documents are ready; the Website Chat Agent and News Digest Agent take about half a day and say why in their own files. The Request Approvals Flow and Morning Triage Agent take about an hour, and the Shared Inbox Sorter about two hours.
 
-| Agent | Saves time on | Best for |
-|---|---|---|
-| [Procedures Assistant](templates/procedures-assistant.md) | Staff asking the owner "how do we do this?" | Every business |
-| [Quote & Proposal Builder](templates/quote-and-proposal-builder.md) | Writing quotes and proposals from scratch | Service businesses, trades, agencies |
-| [Customer Reply Assistant](templates/customer-reply-assistant.md) | Drafting customer emails consistently | Any business with customer email |
-| [Website Chat Agent](templates/website-chat-agent.md) | Answering the same website questions by phone and email | Any business with a website |
-| [News Digest Agent](templates/news-digest-agent.md) | Checking news sites, blogs and newsletters one by one | Owners and teams who need to keep up with their industry |
+| Template | Saves time on | Best for | Copilot credits |
+|---|---|---|---|
+| [Procedures Assistant](templates/procedures-assistant.md) | Staff asking the owner "how do we do this?" | Every business | No credits for seat holders |
+| [Quote & Proposal Builder](templates/quote-and-proposal-builder.md) | Writing quotes and proposals from scratch | Service businesses, trades, agencies | No credits for seat holders |
+| [Customer Reply Assistant](templates/customer-reply-assistant.md) | Drafting customer emails consistently | Any business with customer email | No credits for seat holders |
+| [Website Chat Agent](templates/website-chat-agent.md) | Answering the same website questions by phone and email | Any business with a website | Uses credits |
+| [News Digest Agent](templates/news-digest-agent.md) | Checking news sites, blogs and newsletters one by one | Owners and teams who need to keep up with their industry | No credits |
+| [Request Approvals Flow](templates/request-approvals-flow.md) | Chasing purchase and time-off approvals by text and email | Teams where staff ask the owner or a manager before they spend money or take time off | No credits |
+| [Morning Triage Agent](templates/morning-triage-agent.md) | Working out each morning what you owe people from email, chats and meetings | Busy people whose to-dos arrive in Outlook, Teams chats and meetings | No credits for seat holders |
+| [Shared Inbox Sorter](templates/shared-inbox-sorter.md) | Sorting a shared inbox, double replies and emails nobody answered | Teams who share an info@, sales@ or support@ mailbox | Uses credits |
 
 ## How to use a template
 
@@ -18,7 +21,9 @@ None needs code. The first three take about 30 minutes once your documents are r
 3. Paste the name, description, instructions and conversation starters into Agent Builder in the Microsoft 365 Copilot app (the Website Chat Agent uses Copilot Studio instead, and the News Digest Agent adds two SharePoint lists and two Power Automate flows).
 4. Run the tests in the template before you share the agent.
 
-The first three agents are built for Microsoft 365 Copilot (Copilot Business). People with a Copilot seat use them at no extra cost. People without a seat can use them only after an admin turns on pay-as-you-go billing; each answer drawn from your files is then billed in Copilot Credits (about $0.12). The Website Chat Agent is always billed per answer; its template shows the cost. The News Digest Agent costs nothing extra on Microsoft 365 business plans.
+The first three agents are built for Microsoft 365 Copilot (Copilot Business). People with a Copilot seat use them at no extra cost. People without a seat can use them only after an admin turns on pay-as-you-go billing; each answer drawn from your files is then billed in Copilot Credits (about $0.12). The Website Chat Agent is always billed per answer; its template shows the cost. The News Digest Agent and Request Approvals Flow cost nothing extra on Microsoft 365 business plans. The Morning Triage Agent needs a Copilot seat. The Shared Inbox Sorter's AI step is billed in Copilot Credits and needs Power Automate Premium; its guide shows the cost.
+
+**Copilot credits column:** *No credits* runs on what Microsoft 365 business plans include. *No credits for seat holders* is free for people with a Microsoft 365 Copilot license. *Uses credits* has an AI step billed in Copilot Credits.
 
 ## Before you connect your files
 
