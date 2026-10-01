@@ -1,7 +1,7 @@
 # Copilot agent templates
 
 Free, ready-to-paste agent templates for Microsoft 365 Copilot, written for small and growing businesses.
-Each one takes about 30 minutes to set up, needs no code, and answers from your own documents.
+None needs code. The first three take about 30 minutes once your documents are ready; the Website Chat Agent and News Digest Agent take about half a day and say why in their own files.
 
 | Agent | Saves time on | Best for |
 |---|---|---|
@@ -18,7 +18,7 @@ Each one takes about 30 minutes to set up, needs no code, and answers from your 
 3. Paste the name, description, instructions and conversation starters into Agent Builder in the Microsoft 365 Copilot app (the Website Chat Agent uses Copilot Studio instead, and the News Digest Agent adds two SharePoint lists and two Power Automate flows).
 4. Run the tests in the template before you share the agent.
 
-The first three agents are built for Microsoft 365 Copilot (Copilot Business). People with a Copilot seat use them at no extra cost. People without a seat can still use them, but each answer drawn from your files is billed in Copilot Credits. The Website Chat Agent is always billed per answer; its template shows the cost. The News Digest Agent costs nothing extra on Microsoft 365 business plans.
+The first three agents are built for Microsoft 365 Copilot (Copilot Business). People with a Copilot seat use them at no extra cost. People without a seat can use them only after an admin turns on pay-as-you-go billing; each answer drawn from your files is then billed in Copilot Credits (about $0.12). The Website Chat Agent is always billed per answer; its template shows the cost. The News Digest Agent costs nothing extra on Microsoft 365 business plans.
 
 ## Before you connect your files
 

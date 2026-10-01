@@ -1,14 +1,18 @@
 # Quote & Proposal Builder
 
-## How to build it (about 30 minutes)
+## How to build it (about 30 minutes once your documents are ready)
 
-1. In the Microsoft 365 Copilot app, go to **Agents → Create agent** (Agent Builder). Menu names change, so if it's moved, search Copilot's help for "Agent Builder".
-2. Switch to the **Configure** tab rather than describing the agent in chat, so you control the exact wording.
-3. Paste the name, description, and instructions.
-4. Under **Knowledge**, add the SharePoint folder or files from the checklist. Point it at a dedicated folder, not the whole SharePoint site.
-5. Add the conversation starters.
-6. Run every test under “Test it before you share it” in the test pane. Fix the instructions or the documents until every test passes.
-7. Share the agent with the right people or group. Have the admin publish it org-wide if everyone should see it.
+Who can do it: anyone with a Microsoft 365 Copilot seat, as long as your admin hasn't turned Agent Builder off. You also need to be able to share the SharePoint folder you'll use (usually a site owner or member).
+
+1. Open Microsoft 365 Copilot in a browser (microsoft365.com/chat) or in Teams on a computer. It doesn't work on the phone app.
+2. In the left pane, select **New agent**. On the next screen select **Skip to configure**, so you type the exact wording instead of describing the agent in chat.
+3. Paste the name, description and instructions. The name can be at most 30 characters, so shorten the company name if you need to (for example "Acme How-To Helper").
+4. Under **Knowledge**, paste the web address of the SharePoint folder from the documents list and press Enter. Copy the address from your browser while the folder is open; it contains /sites/. Use a folder just for this agent, not the whole site. Up to 100 files work. New files show "Preparing" for a few minutes; wait until that goes away.
+5. Turn on **Only use specified sources**, so the agent answers from your documents rather than from the internet.
+6. Under **Starter prompts**, add each conversation starter: type a short title (for example "Opening checklist") and paste the line as the prompt.
+7. Open the **Try it** tab. It appears once the name, description and instructions are filled in. Run every test under “Test it before you share it” there. If an answer is wrong, fix the instructions or the document and ask again, until every test passes.
+8. Select **Create**. The agent is now saved, and only you can use it.
+9. Select **Share**. Add the people or group who should use it, with **Can chat**. To let everyone in the company use it, turn on **Org-wide sharing for chat access**, and check that everyone can open the SharePoint folder, because sharing the agent doesn't change who can open the files. Listing it under "Built by your org" in the agent store is a separate step for your admin.
 
 ## Agent Builder fields
 
@@ -21,6 +25,8 @@
 - Draft a proposal similar to our last [SERVICE TYPE] job.
 - Turn these job notes into a quote.
 - What do we normally include for a [SERVICE TYPE] job?
+
+**Capabilities:** turn on **Create documents, charts, and code**, so totals are worked out rather than guessed. Still check them.
 
 ## Instructions (paste everything in the box)
 
@@ -70,7 +76,7 @@ Professional, clear, confident, and friendly. Plain language customers understan
 Put these in `Company Knowledge / Quotes`.
 
 **Must have:**
-- [ ] **Current price list** (Excel or Word): every standard item or service, unit, and price. One document, the single source of truth, with a "last updated" date at the top.
+- [ ] **Current price list** (Excel or Word): every standard item or service, unit, and price. One document (in Excel, keep it on one sheet), the single source of truth, with a "last updated" date at the top.
 - [ ] **Quote template:** the layout they send today (Word)
 - [ ] **Standard terms and conditions:** exactly as they should appear
 - [ ] **3–5 recent quotes or proposals they were happy with:** for wording and structure (remove customer personal details if possible)
