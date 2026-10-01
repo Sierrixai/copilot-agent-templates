@@ -1,7 +1,7 @@
 # Copilot agent and flow templates
 
 Free, ready-to-paste agent and Power Automate flow templates for Microsoft 365 Copilot, written for small and growing businesses.
-None needs code. The first three take about 30 minutes once your documents are ready; the Website Chat Agent and News Digest Agent take about half a day and say why in their own files. The Request Approvals Flow and Morning Triage Agent take about an hour, and the Shared Inbox Sorter about two hours.
+None needs code. The first three take about 30 minutes once your documents are ready; the Website Chat Agent and News Digest Agent take about half a day and say why in their own files. The Request Approvals Flow and Morning Triage Agent take about two hours the first time, and the Shared Inbox Sorter about three; each is written for someone who has never used Power Automate.
 
 | Template | Saves time on | Best for | Copilot credits |
 |---|---|---|---|
