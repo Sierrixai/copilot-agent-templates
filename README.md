@@ -12,10 +12,10 @@ None needs code. The first three take about 30 minutes once your documents are r
 | [News Digest Agent](templates/news-digest-agent.md) | Checking news sites, blogs and newsletters one by one | Owners and teams who need to keep up with their industry | No credits |
 | [Request Approvals Flow](templates/request-approvals-flow.md) | Chasing purchase and time-off approvals by text and email | Teams where staff ask the owner or a manager before they spend money or take time off | No credits |
 | [Morning Triage Agent](templates/morning-triage-agent.md) | Working out each morning what you owe people from email, chats and meetings | Busy people whose to-dos arrive in Outlook, Teams chats and meetings | No credits for seat holders |
-| [Shared Inbox Sorter](templates/shared-inbox-sorter.md) | Sorting a shared inbox, double replies and emails nobody answered | Teams who share an info@, sales@ or support@ mailbox | Uses credits |
-| [Supplier Invoice Intake](templates/invoice-intake-flow.md) | Typing supplier invoices into the books and chasing the owner for approval | Businesses that get supplier bills by email and want them filed, approved and ready for the books | Uses credits |
+| [Shared Inbox Sorter](templates/shared-inbox-sorter.md) | Sorting a shared inbox, double replies and emails nobody answered | Teams who share an info@, sales@ or support@ mailbox | Uses credits; needs Power Automate Premium |
+| [Supplier Invoice Intake](templates/invoice-intake-flow.md) | Typing supplier invoices into the books and chasing the owner for approval | Businesses that get supplier bills by email and want them filed, approved and ready for the books | Uses credits; needs Power Automate Premium |
 | [Lead Reply Flow](templates/lead-reply-flow.md) | Answering new leads late and copying them between inboxes and lists | Businesses that get enquiries from a website form or a contact email and want every one answered within minutes | No credits |
-| [Meeting Follow-up Flow](templates/meeting-follow-up-flow.md) | Writing up meetings, chasing action items and sending the recap | Owners and managers who run regular Teams meetings with staff or customers | Uses credits |
+| [Meeting Follow-up Flow](templates/meeting-follow-up-flow.md) | Writing up meetings, chasing action items and sending the recap | Owners and managers who run regular Teams meetings with staff or customers | Uses credits; needs Power Automate Premium |
 | [Review Request Flow](templates/review-request-flow.md) | Remembering to ask for feedback and reviews after every job | Any business that finishes jobs, orders or appointments for customers and wants more reviews and fewer surprises | No credits |
 
 ## How to use a template
@@ -27,7 +27,7 @@ None needs code. The first three take about 30 minutes once your documents are r
 
 The first three agents are built for Microsoft 365 Copilot (Copilot Business). People with a Copilot seat use them at no extra cost. People without a seat can use them only after an admin turns on pay-as-you-go billing; each answer drawn from your files is then billed in Copilot Credits (about $0.12). The Website Chat Agent is always billed per answer; its template shows the cost. The News Digest Agent and Request Approvals Flow cost nothing extra on Microsoft 365 business plans. The Morning Triage Agent needs a Copilot seat. The Shared Inbox Sorter's AI step is billed in Copilot Credits and needs Power Automate Premium; its guide shows the cost. Supplier Invoice Intake and the Meeting Follow-up Flow work the same way (the meeting flow also has a no-credit version for Copilot seat holders); the Lead Reply Flow and Review Request Flow cost nothing extra.
 
-**Copilot credits column:** *No credits* runs on what Microsoft 365 business plans include. *No credits for seat holders* is free for people with a Microsoft 365 Copilot license. *Uses credits* has an AI step billed in Copilot Credits.
+**Copilot credits column:** *No credits* runs on what Microsoft 365 business plans include. *No credits for seat holders* is free for people with a Microsoft 365 Copilot license. *Uses credits* has an AI step billed in Copilot Credits. An AI step also makes a flow premium, so *needs Power Automate Premium* means the person who builds it needs a Power Automate Premium license ($15 per user a month, billed yearly) or the flow is billed $0.60 per run.
 
 ## Before you connect your files
 
